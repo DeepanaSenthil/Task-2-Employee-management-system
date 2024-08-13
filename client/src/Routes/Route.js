@@ -50,9 +50,9 @@ const Router = () => {
         {
           path: "home-page",
           element: (
-            <PrivateDashboradRoute isLoggedin={isLoggedin} role={role}>
-              <HomeLayout userId={userId} />
-            </PrivateDashboradRoute>
+            // <PrivateDashboradRoute isLoggedin={isLoggedin} role={role}>
+            <HomeLayout userId={userId} />
+            // </PrivateDashboradRoute>
           ),
         },
         {
